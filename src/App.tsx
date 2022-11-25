@@ -19,6 +19,12 @@ function App() {
           {currentStepIndex + 1} / {steps.length}
         </div>
         {step}
+        <div
+          style={{ marginTop: "1rem", display: "flex", gap: ".5rem", justifyContent: "flex-end" }}
+        >
+          <button>Back</button>
+          <button>Next</button>
+        </div>
       </form>
     </div>
   );
